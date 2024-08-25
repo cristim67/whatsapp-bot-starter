@@ -1,6 +1,6 @@
 # Learn more about Genezio YAML at https://genezio.com/docs/project-structure/genezio-configuration-file/
 # The name of the project.
-name: genezio-whatsapp-bot
+name: whatsapp-bot-getting-started
 # The region where the project is deployed.
 region: us-east-1
 # The version of the Genezio YAML configuration to parse.
@@ -20,5 +20,3 @@ backend:
     deploy: npm install
     # List of scripts to run before starting `genezio local`.
     local: npm install
-  # The cloud provider where the backend is deployed.
-  cloudProvider: genezio
